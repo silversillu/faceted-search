@@ -1,4 +1,4 @@
-;(function(){
+;(function($){
 
 /**
  * Please note that when passing in custom templates for 
@@ -346,4 +346,4 @@ function showMoreResults() {
   $(settings.resultSelector).trigger("facetedsearchresultupdate");
 }
 
-})();
+})(jQuery);
